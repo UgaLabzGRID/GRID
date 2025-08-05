@@ -1,0 +1,134 @@
+**AGILITY DAPP FRONT-END PROMPTS FOR REPLIT AGENT**
+
+### OBJECTIVE
+Develop a clean, modern, and professional front-end UI for the AGILITY dApp using Replit Agent Helper. This version is *front-end only* for AGILITY, and functional agent integration for VINE.MIND. Avoid overloading logic where unnecessary.
+
+---
+
+### CORE DESIGN REQUIREMENTS
+- **Color Palette**: Dominantly **black** and **white** UI, with elegant accents of **yellow**.
+- **Visual Style**: High-contrast, minimalistic layout with professional fonts, subtle gradients, and modern iconography.
+- **Responsiveness**: Fully responsive for desktop and mobile.
+- **UI Libraries**: Use **TailwindCSS** for utility-first styling and UI responsiveness.
+- **Framework**: Built in **React.js**.
+
+---
+
+### STRUCTURE OF THE UI
+
+#### 1. **Landing Page (Home)**
+**Purpose**: Introduce Agility's mission and benefits.
+
+**Sections**:
+- **Hero Section**: Big headline, tagline, CTA button ("Launch App"), and minimalist illustration or animation.
+- **About Agility**: Short paragraphs with icons explaining:
+  - Fast XRPL Payments
+  - Privacy via Midnight ZK
+  - Interledger Interoperability
+  - Web3 Domain Integration
+- **Visual Element**: Subtle glowing XRPL + Midnight + ILP logos displayed in harmony.
+
+#### 2. **App Dashboard Page**
+**Purpose**: This is the main interface users will see after connecting.
+
+**UI Elements**:
+- Sidebar Navigation:
+  - Home
+  - Wallet (Dummy for now)
+  - Send Payment (No logic yet)
+  - Domains & Privacy (Stub section)
+  - Settings
+- Main Panel:
+  - Placeholder cards/tiles for:
+    - Transaction Summary
+    - Recent Activity
+    - Privacy Score (static)
+  - Each tile has a clean layout with icon + placeholder content.
+
+**UX Elements**:
+- Top navbar with placeholder for profile icon and KYC badge
+- Modal placeholders for KYC onboarding and ZK-proof notification system (static for now)
+
+#### 3. **Web3 Domain Management Page (Static Version)**
+- Mocked domain ownership table
+- Option to mint Web3 domain (button only, no logic)
+- Text explaining NFT-based ownership and privacy benefits
+
+#### 4. **Agent App UI (VINE.MIND)**
+**Purpose**: Provide a functional interface to interact with and manage AI agents.
+
+**Design Concept**: Futuristic cyberpunk chat interface with the following visual/UX specs:
+- Character hologram display in a 3D/glass-like panel
+- Chat interface styled like a terminal with sleek black input/output design
+- Agent selection panel (left side) with circular avatars/names
+- Neon-glow accent elements (using yellow sparingly)
+
+**Functionality Requirements**:
+- Agents sidebar: Pull from API list of available agents (GET)
+- Add agent: Form/modal to input agent details and call POST API to register new agents
+- Delete/Edit agent: Option menu on each agent (no logic yet)
+- Chatbox: Simple two-way message history with placeholder messages (chat logic optional for now)
+- Use a separate `api/agents.js` module to store mock/fetch functions
+
+**Sections**:
+- Sidebar (switch between agents dynamically)
+- Main Panel:
+  - Hologram/character card with agent name and role
+  - Chat box interface for input/output messages
+  - Dropdown or buttons for managing selected agent
+
+---
+
+### TYPOGRAPHY + ICONS
+- Use modern sans-serif fonts (e.g., Inter, Space Grotesk)
+- Include subtle icons (e.g., from Heroicons or Lucide)
+- Text hierarchy using Tailwind (text-2xl, text-base, font-semibold, etc.)
+
+---
+
+### VISUAL & MOTION GUIDELINES
+- Subtle glowing borders or gradients to signal interactivity
+- Light animation on buttons or hover states (Tailwind transitions)
+- Black/dark background sections broken by crisp white components and yellow accents
+
+---
+
+### LOGOS
+- Logos for each GRID tool (AGILITY, VINE.MIND, etc.) will be provided. Include placeholder image components where logos should appear.
+
+---
+
+### DON'T INCLUDE (For Now)
+- Wallet connection logic
+- Smart contract integrations
+- Midnight proof server logic
+- GPT agent chat logic (optional — but base chat UI structure needed)
+- Backend database connections (mock API functions only)
+
+---
+
+### FILE STRUCTURE SUGGESTION
+```bash
+/src
+  /components
+    Header.js
+    Sidebar.js
+    Tile.js
+    HeroSection.js
+    AgentInterface.js
+    AgentCard.js
+  /pages
+    Home.js
+    Dashboard.js
+    Domains.js
+    Agents.js
+  /api
+    agents.js
+  App.js
+  index.css
+  tailwind.config.js
+```
+
+---
+
+Once this UI is fully mocked and visually tested, we’ll move to phase two: full backend integrations (wallets, ILP, Midnight, KYC, GPT agents).

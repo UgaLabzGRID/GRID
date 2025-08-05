@@ -1,0 +1,82 @@
+ Let's build a third main page for the GRID platform called "Services".
+
+🧠 Purpose: This page will showcase the services GRID offers, including packages, add-ons, and a la carte options. It must reflect a premium, modern Web3 design.
+
+🧩 PAGE STRUCTURE:
+1. Nav Bar
+
+Add a new tab to the navigation called Services
+
+Highlighted when on this page
+
+2. Hero Section (Top of Services Page)
+
+Full width with dark grey → black gradient
+
+Title: "Crafted Services for Builders, Degens & Visionaries"
+
+Subtext: “Launch-ready websites, AI-powered videos, branding, memetics, and more — tailor your stack.”
+
+Optionally include a 3D-style render of a service-related element, floating/glowing on the right (use subtle jungle yellow glow)
+
+💼 Services Section
+Make this visually segmented in glass panel style cards or blocks, grouped by package tier.
+
+🟨 Package Tiers (grid layout with hover effect)
+Package Name	Website	Videos (OpenArt AI)	Price
+Basic Presence	1–5 Page Site (Design + Dev)	1 Short Video (30–60s, vertical, OpenArt)	$700
+Startup Spark	Same as Basic	3 Short Videos + Light Branding Help	$900
+Momentum Boost	Same as Basic	5 Shorts + 1 Long-Form Video (1–2 min)	$1,200
+Full Launch	Up to 7 Pages + Branding	10 Shorts + 2 Long-Form Videos	$1,500
+Cinematic Upgrade	Same as Full Launch	Swap to Veo 3 videos: 10 Shorts + 2 Long-Form Premium	$1,900
+Custom Build	Tailored Features & Pages	Custom videos (OpenArt or Veo 3) + Copywriting & SEO	$2,000+
+
+🎥 Video Upgrade Options
+Display this like a comparison chart or toggle card:
+
+Add-On	OpenArt AI	Veo 3
+Extra Short Video (30–60s)	$50	$100
+Extra Long Video (1–3 min)	$150	$250
+Voice-over (Custom AI)	Included	Included
+Captions / Subtitles	Included	Included
+Platform Formatting	Included	Included
+
+🛠️ A La Carte Services
+Use pill or tile format for this section:
+
+Logo Design (AI-assisted) – $100
+
+Landing Page – $100/page
+
+Copywriting (5 sections) – $100
+
+SEO Optimization (Lite) – $75
+
+Domain & Hosting Setup – +$70/year
+
+Contract Terms – 50% upfront, 50% on delivery
+
+🖼️ Past Work Showcases
+Create a media gallery section to show:
+
+Website screenshots
+
+Short/Long-form video reels
+
+Character development examples
+
+Meme pack previews
+
+Optional filters: Websites | Videos | Branding | Memes
+
+🐾 Special Service: Meme & Character Packs
+Product	Description
+Meme Creation Pack	4 Weeks = 30 Memes, 6 Weeks = 45 Memes
+Character Development	3D Full Character + Poses Sheet
+
+✨ Style Guide
+Maintain current dark grey/black/yellow aesthetic (no gradients like purple or neon)
+
+Use sleek shadows, slight neon-style glow on hover
+
+Layout and inspiration should follow the Lunar and Avangard examples, but stay true to GRID’s cyberpunk, professional look

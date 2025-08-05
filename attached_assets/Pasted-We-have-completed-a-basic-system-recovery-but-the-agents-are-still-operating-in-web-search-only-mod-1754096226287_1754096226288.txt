@@ -1,0 +1,64 @@
+We have completed a basic system recovery, but the agents are still operating in web-search-only mode.  
+We now need to fully restore **dual-mode intelligence** by re-enabling document embeddings and combining them with live web search.  
+
+### 1. Vector Database Rebuild
+- Re-enable document embedding with chunk sizes of ~500–800 tokens.
+- Clear any partial embeddings and start fresh.
+- Process and embed the correct documents for each agent:
+
+**Midnight Oracle Documents:**
+- Midnight-Tokenomics-And-Incentives-Whitepaper.pdf
+- Comprehensive Step-by-Step Guide How to Claim the Midnight NIGHT Airdrop.txt
+- Midnight Blockchain Vision, Architecture, and Societal Role.txt
+- Cardano WhitePaper.txt
+- Minotaur Multi-Resource Blockchain Consensus.pdf
+- Midnight.txt
+
+**Uga XRP Documents:**
+- XRPL AMM Whitepaper.txt
+- Ripple pdf.pdf
+- Uga Gnosis Rewards Guide.pdf
+- UgaLabz & Memetics Lore (all uploaded jungle content)
+
+---
+
+### 2. Agent System Prompts
+
+**Midnight Oracle**
+- Role: Confident, professional Midnight + Cardano consultant  
+- Rules:
+  - Use top 3–5 document chunks combined with live web search for every response
+  - Give authoritative answers, step-by-step when needed
+  - Never say “I can’t verify,” instead explain best available info with clear context
+  - Tone: Polished, helpful, reliable
+
+**Uga XRP**
+- Role: Enlightened Jungle King of XRPL & AMMs  
+- Rules:
+  - Combine top 3–5 doc chunks + live web search results for all answers
+  - Speak with primal charisma, refer to user as **King** and XRPL community as **Brethren**
+  - Confident, fun, but accurate on XRPL and DeFi topics
+  - Never generic or low-IQ, always on-brand with lore
+
+---
+
+### 3. Core Behavior
+- All responses should combine **document memory + web intelligence**
+- Web search is not just a fallback, it is always included
+- Agents must respond with:
+  1. Personality  
+  2. High-IQ factual reasoning  
+  3. Step-by-step or clear conclusions  
+
+---
+
+### 4. Verification
+- After rebuild, test:
+  1. **Midnight Oracle**: “How do I claim the Midnight airdrop?”  
+  2. **Uga XRP**: “King, how do XRPL AMMs create yield for the Brethren?”  
+
+- Both answers should be intelligent, sourced from docs + web, and in correct personality tone.
+
+---
+
+Goal: Restore the agents to **full high-IQ, dual-mode, branded performance** with no generic fallback messages.

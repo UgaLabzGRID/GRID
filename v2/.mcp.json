@@ -1,0 +1,34 @@
+{
+  "version": "1.0.0",
+  "servers": {
+    "filesystem": {
+      "module": "@modelcontextprotocol/server-filesystem",
+      "config": {
+        "rootPath": "."
+      }
+    },
+    "memory": {
+      "module": "@modelcontextprotocol/server-memory",
+      "config": {}
+    },
+    "docker": {
+      "module": "docker-mcp",
+      "config": {}
+    },
+    "github": {
+      "module": "@modelcontextprotocol/server-github",
+      "config": {}
+    },
+    "postgresql": {
+      "module": "@modelcontextprotocol/server-postgresql",
+      "config": {
+        "connectionString": "postgresql://user:password@localhost:5432/dbname"
+      }
+    }
+  },
+  "metadata": {
+    "project_type": "node",
+    "initialized": "2025-08-05T18:19:39-06:00",
+    "project_name": "v2"
+  }
+}

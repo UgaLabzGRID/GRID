@@ -1,0 +1,1 @@
+/team we have been handed a fantastic web site but it was built on replit by a novice. We are tasked with making it a production grade PWA with a GCP backend. We 

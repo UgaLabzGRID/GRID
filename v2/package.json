@@ -1,0 +1,13 @@
+{
+  "name": "project-root",
+  "version": "1.0.0",
+  "description": "Root package for project scripts",
+  "scripts": {
+    "dev": "cd app && npm run dev",
+    "start": "cd app && npm start",
+    "test": "cd app && npm test",
+    "build": "cd app && npm run build",
+    "lint": "cd app && npm run lint",
+    "format": "cd app && npm run format"
+  }
+}
